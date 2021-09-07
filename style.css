@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+a:hover {
+  color: #640c64 !important;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+/* header-design */
+.navigation-wrap {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease-out 0s;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+}
+.navigation-wrap .nav-item {
+  padding: 0 0.625rem;
+  transition: all 200ms linear;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+}
+.navbar-toggler:hover {
+  outline: unset;
+  border: unset;
+  box-shadow: none;
+}
+.web-navbar {
+  z-index: 1000;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner__wrapper {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.712)),
+    url(./images/post-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.col-item-icon a {
+  font-size: 50px;
+  color: black;
+  margin: 15px;
+}
+@media (max-width: 900px) {
+  .col-item-icon a {
+    font-size: 25px;
+    color: black;
+    margin: 0;
+  }
+}
